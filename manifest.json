@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "Custom Your TL",
+  "version": "1.0",
+
+  "description": "With this pluggin ou can choose what do want look on your Tweet Life",
+
+  "icons": {
+    "48": "icons/twitter.png"
+  },
+
+  "content_scripts": [
+    {
+      "css":["style.css"],
+      "matches": ["https://twitter.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+
+}
