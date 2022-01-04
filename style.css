@@ -1,5 +1,10 @@
+/* ne pas afficher les photos*/
 div.css-1dbjc4n.r-sdzlij.r-1p0dtai.r-1mlwlqe.r-1d2f490.r-1udh08x.r-u8s1d.r-zchlnj.r-ipm5af.r-417010{
 
 	display : none !important; 
 	
+}
+/* ne pas afficher les tendance */
+.css-1dbjc4n.r-1ysxnx4.r-k0dy70.r-1867qdf.r-1phboty.r-rs99b7.r-1ifxtd0.r-1udh08x{
+	display : none;
 }
